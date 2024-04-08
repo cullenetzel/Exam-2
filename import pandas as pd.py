@@ -32,3 +32,5 @@ print()
 X_train = sm.add_constant(X_train) # Adding a constant for the intercept
 model_stats = sm.OLS(y_train, X_train).fit()
 print(model_stats.summary())
+
+print("Go Brewers")
